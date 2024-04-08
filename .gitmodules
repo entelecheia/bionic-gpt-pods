@@ -1,0 +1,3 @@
+[submodule "bionic-gpt"]
+	path = bionic-gpt
+	url = https://github.com/bionic-gpt/bionic-gpt.git
