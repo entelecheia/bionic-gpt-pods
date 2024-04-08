@@ -1,6 +1,11 @@
 #! /bin/bash
 ## Server Node Installation
 # --------------
+## (Re-)install K3's
+
+# Uninstall
+# sudo /usr/local/bin/k3s-uninstall.sh
+
 ### 1. Install K3s
 if ! command -v k3s &>/dev/null; then
     sudo curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC='server --write-kubeconfig-mode="644"' sh -
